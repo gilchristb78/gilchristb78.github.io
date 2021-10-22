@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BG Portfolio</title>
+    <!-- Boottrap -->
+    <link href="css/bootstrap-4.3.1.css" rel="stylesheet">
+	<link rel="shortcut icon" href="bg2.ico" type="image/x-icon" sizes="16x16" />
+	<style>
+		
+		@media (min-width: 1000px){
+			.details{font-size:1.5rem; padding-top: .6rem; height: 3.8rem}
+			.backgrounder{background-size: 300px,20rem}
+
+		}
+		@media (max-width: 1000px) {
+    		.details{font-size: 1.2rem; padding-top: .8rem; height: 3.6rem}
+			.backgrounder{background-size: 300px,20rem}
+		}
+
+		@media (max-width: 800px) {
+			.details{font-size: 1rem;  padding-top: .8rem; height: 3.5rem}
+			.backgrounder{background-size: 225px,20rem}
+		}
+		@media (max-width: 650px) {
+			.details{font-size: 1rem;  padding-top: .4rem; height: 3.5rem}
+			.backgrounder{background-size: 225px,20rem}
+		}
+		@media (max-width: 430px) {
+			.details{font-size: 1rem;  padding-top: .8rem; height: 4.5rem}
+			.backgrounder{background-size: 225px,20rem}
+
+		}
+	</style>
+  </head>
+<body>
+	<nav style="padding-left:1.2rem; z-index: 9999; width: 100%; background-color: #D6D6D6;" class="navbar navbar-expand-sm navbar-light">
+			<a href="index.html">
+		   		<img class="navbar-brand" href="/index.html" src="images/Logo-Yin.png" height="80" alt="logo">
+			</a>
+			<button style="margin-right:1rem;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span  class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			  <ul class="navbar-nav ml-auto" style="font-weight: 750; ">
+				 <li class="nav-item active">
+					<a class="nav-link" href="projects.html" style="margin-left: 2rem; color: black; font-size: 1.5rem; font-family: Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, 'serif';">Projects <span class="sr-only">(current)</span></a>
+				 </li>
+				 <li class="nav-item active">
+					<a class="nav-link" href="https://docs.google.com/document/d/1q9Lb7HLnbJK9aQ2P_YS8VwVpuR3NjnjQwXMQBbw2DoI/edit?usp=sharing" style="margin-left: 2rem; color: black; font-size: 1.5rem; font-family: Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, 'serif';">Resume <span class="sr-only">(current)</span></a>
+				 </li>
+				  <li class="nav-item active">
+					<a class="nav-link" href="contact.html" style="margin-left: 2rem; margin-right: 1rem; color: black; font-size: 1.5rem; font-family:  Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, 'serif';">Contact <span class="sr-only">(current)</span></a>
+				 </li>
+			  </ul>
+			</div>
+		</nav>
+	<div class="container" style="padding-top: 4rem; padding-bottom: 4rem;">
+	<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
+  <fieldset id="fs-frm-inputs">
+    <label for="full-name">Full Name</label>
+    <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+    <label for="email-address">Email Address</label>
+    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+    <label for="message">Message</label>
+    <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+  </fieldset>
+  <input type="submit" value="Submit">
+</form><style>/* reset */
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm fieldset,
+#fs-frm optgroup,
+#fs-frm label,
+#fs-frm #card-element:disabled {
+  font-family: inherit;
+  font-size: 100%;
+  color: inherit;
+  border: none;
+  border-radius: 0;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+#fs-frm label,
+#fs-frm legend,
+#fs-frm ::placeholder {
+  font-size: .825rem;
+  margin-bottom: .5rem;
+  padding-top: .2rem;
+  display: flex;
+  align-items: baseline;
+}
+
+/* border, padding, margin, width */
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm #card-element {
+  border: 1px solid rgba(0,0,0,0.2);
+  background-color: rgba(255,255,255,0.9);
+  padding: .75em 1rem;
+  margin-bottom: 1.5rem;
+}
+#fs-frm input:focus,
+#fs-frm select:focus,
+#fs-frm textarea:focus {
+  background-color: white;
+  outline-style: solid;
+  outline-width: thin;
+  outline-color: gray;
+  outline-offset: -1px;
+}
+#fs-frm [type="text"],
+#fs-frm [type="email"] {
+  width: 100%;
+}
+#fs-frm [type="button"],
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  width: auto;
+  cursor: pointer;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+}
+#fs-frm [type="button"]:focus,
+#fs-frm [type="submit"]:focus,
+#fs-frm [type="reset"]:focus {
+  outline: none;
+}
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  margin-bottom: 0;
+}
+#fs-frm select {
+  text-transform: none;
+}
+
+#fs-frm [type="checkbox"] {
+  -webkit-appearance: checkbox;
+  -moz-appearance: checkbox;
+  appearance: checkbox;
+  display: inline-block;
+  width: auto;
+  margin: 0 .5em 0 0 !important;
+}
+
+#fs-frm [type="radio"] {
+  -webkit-appearance: radio;
+  -moz-appearance: radio;
+  appearance: radio;
+}
+
+/* address, locale */
+#fs-frm fieldset.locale input[name="city"],
+#fs-frm fieldset.locale select[name="state"],
+#fs-frm fieldset.locale input[name="postal-code"] {
+  display: inline;
+}
+#fs-frm fieldset.locale input[name="city"] {
+  width: 52%;
+}
+#fs-frm fieldset.locale select[name="state"],
+#fs-frm fieldset.locale input[name="postal-code"] {
+  width: 20%;
+}
+#fs-frm fieldset.locale input[name="city"],
+#fs-frm fieldset.locale select[name="state"] {
+  margin-right: 3%;
+}
+</style>
+		</div>
+	
+	<section>
+	<hr>
+	<div class="section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-12">
+					<h3 class="text-center">WHO AM I</h3>
+					<p>I am a student studying computer science with a passion for computers and programming. I am excited to work on projects as I learn my way through exciting topics such as software development, A.I. and a variety of others. I have worked with many languages such as Java Html CSS Python C PHP SQL and many more.</p>
+				</div>
+				<div class="col-md-4 col-12">
+					<h3 class="text-center">GET IN TOUCH</h3>
+					<address class="text-center">
+					<strong>Benjamin Gilchrist</strong><br>
+					Mendon Massachusetts<br>
+					gilchristb78@gmail.com <br>
+					github.com/gilchristb78 <br>
+					(508) 498-9010<br>
+					</address>
+				</div>
+				<div class="col-md-4 col-12">
+					<h3 class="text-center">Helpful Links</h3>
+					<div style="margin: .5rem">
+					  <button type="button" class="btn btn-success" onClick="window.location.href = 'https://www.github.com/gilchristb78'" style="margin: .5rem">Github</button>
+					  <button type="button" class="btn btn-primary" onClick="window.location.href = 'https://docs.google.com/document/d/1q9Lb7HLnbJK9aQ2P_YS8VwVpuR3NjnjQwXMQBbw2DoI/edit?usp=sharing'" style="margin: .5rem">Resume</button>
+					  <button type="button" class="btn btn-success"  onClick="window.location.href = 'https://github.com/gilchristb78/KevinBaconCalculator'" style="margin: .5rem">Searcher</button>
+					  <button type="button" class="btn btn-info"  onClick="window.location.href = 'logogal.html'" style="margin: .5rem">Logos</button>
+					  <button type="button" class="btn btn-info"  onClick="window.location.href = 'Graphical.html'" style="margin: .5rem">Artworks</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<hr>
+</section>
+</body>
+</html>
